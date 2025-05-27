@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitacion</title>
+
+    <!-- BOOTSTRAP CSS - JS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+
+    <link rel="stylesheet" href="CSS/estilos.css">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="Vendors/fontawesome-6.1/FontAwesome 6.1/all.min.css" rel="stylesheet" />
+
+    <script src="Vendors/fontawesome-free-5.15.3-web/js/regular.min.js" defer></script>
+    <script src="Vendors/fontawesome-free-5.15.3-web/js/brands.min.js" defer></script>
+    <script src="Vendors/fontawesome-free-5.15.3-web/js/solid.min.js" defer></script>
+    <script src="Vendors/fontawesome-free-5.15.3-web/js/fontawesome.min.js" defer></script>
+
+</head>
+<body>
+
+    <div class="modal" tabindex="-1">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title w-100 text-center">INVITACIÓN PARA MI AMOR</h5>
+                </div>
+
+                <div class="modal-body">
+
+                    <!-- Fecha -->
+                    <p class="mb-4"><strong><i class="fa-solid fa-calendar-days fa-xl me-2" style="color: #74C0FC;"></i>Fecha: </strong>Sábado 31 de Mayo 2025</p>
+
+                    <!-- Lugar -->
+                    <p class="mb-4"><strong><i class="fa-solid fa-location-dot fa-xl me-2" style="color: #74C0FC;"></i>Lugar: </strong>Picnic Las Lomas</p>
+
+                    <!-- Hora -->
+                    <p class="mb-4"><strong><i class="fa-solid fa-clock-ten fa-xl me-2" style="color: #74C0FC;"></i>Hora: </strong>10:00 am</p>
+                    
+                    <!-- Motivo -->
+                    <div class="container d-flex flex-column justify-content-center">
+
+                        <div class="text-center mb-3"><strong>Motivo...</strong></div>
+                        <p class="text-center mb-3">Por ser una mujer tan linda, hermosa, preciosa, valiente, inteligente y por ser mi niña hermosa la que amo con todo mi corazón. Tenemos una cita el próximo sábado para pasar un hermoso día y seguir atesorando experiencias juntos. <i class="fa-solid fa-heart" style="color: #F7A8B8;"></i> </p>
+                
+                    </div>
+                                
+                    
+                </div>
+
+                <div class="modal-footer d-flex justify-content-center">
+
+                    <button class="btn-footer text-uppercase">Te Amodoro</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- JS -->
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var myModal = new bootstrap.Modal(document.querySelector('.modal'), {
+        backdrop: 'static', // evita que se cierre al hacer clic fuera
+        keyboard: false     // evita que se cierre con "Escape"
+        });
+        myModal.show();
+    });
+    </script>
+
+    
+</body>
+</html>
